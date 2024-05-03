@@ -1,20 +1,20 @@
 
 #container {
     width: 200px;
-    height: 300px;
+    height: 330px;
     background-color: orange;
     border-radius: 10px;
     padding: 10px;
     display: flex;
     flex-direction: column;
     flex: auto;
+    gap: 10px;
 }
 
 #screen_block {
     background-color: black;
     padding: 10px;
     border-radius: 1px;
-    margin-bottom: 10px;
 }
 
 #screen_top {
@@ -28,6 +28,12 @@
 
 #screen_main {
     height: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'DS-Digital', sans-serif;
+    font-weight: bold;
 }
 
 #sun_screen {
@@ -40,6 +46,11 @@
     border-radius: 2px;
 }
 
+#clear_button_block {
+    display: flex;
+    justify-content: center;
+}
+
 #button_block {
     display: flex;
     flex-wrap: wrap;
@@ -48,6 +59,10 @@
     /* background-color: brown; */
     justify-content: center;
     padding-bottom: 15px;
+}
+
+#clear_button {
+    flex-grow: 1;
 }
 
 button {
