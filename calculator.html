@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="calculator.js" defer></script>
 </head>
 <body>
     <div id="container">
@@ -13,7 +14,7 @@
                 <div id="title">JS Calculator</div>
                 <div id="sun_screen" class="screen"></div>
             </div>
-            <div id="screen_main" class="screen">1234567</div>
+            <div id="screen_main" class="screen">0</div>
         </div>
         <div id="clear_button_block">
             <button id="clear_button">CLEAR</button>
@@ -22,19 +23,19 @@
             <button>7</button>
             <button>8</button>
             <button>9</button>
-            <button>÷</button>
+            <button id="div_btn" class="operator">÷</button>
             <button>4</button>
             <button>5</button>
             <button>6</button>
-            <button>×</button>
+            <button id="mul_btn" class="operator">×</button>
             <button>1</button>
             <button>2</button>
             <button>3</button>
-            <button>−</button>
+            <button id="min_btn" class="operator">−</button>
             <button>0</button>
-            <button>·</button>
-            <button>=</button>
-            <button>+</button>
+            <button id="dot_button">·</button>
+            <button id="eq_btn">=</button>
+            <button id="add_btn" class="operator">+</button>
         </div>
     </div>
 </body>
